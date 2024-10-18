@@ -1,2 +1,3 @@
 # Python livro 1
- Primeiro livro de python teste
+ Leitura do primeiro livro de python exercicios
+ Python para iniciantes
