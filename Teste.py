@@ -1,1 +1,1 @@
-print('   olá mundo!'.rstrip())
+print(3/2)

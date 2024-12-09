@@ -1,0 +1,1 @@
+#esse exercicio foi pulado porque eu faço o que o exercicio está pedindo naturalmente
