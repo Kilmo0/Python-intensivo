@@ -1,5 +1,5 @@
-Nome = 'Kauã Lorenzi'
-Idade = str('18')
+Comida = ['Arroz', 'Feijão', 'carne']
 
-print(f"meu nome é {Nome}, e tenho {Idade} anos")
-print"meu nome é {}m e tenho {} anos".format(Nome, Idade)
+Comida.append('Batata')
+
+print(Comida)

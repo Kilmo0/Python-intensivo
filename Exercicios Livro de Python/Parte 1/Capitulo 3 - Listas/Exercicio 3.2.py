@@ -5,7 +5,9 @@ texto de cada mensagem deve ser o mesmo, porém cada mensagem deve estar
 personalizada com o nome da pessoa.
 """
 
+#lista com o nome das pessoas
 names = ['brian', 'allan', 'gabriel', 'Anton', 'Alexandre']
 
+#for naem in names é o comando utilizado para replicar todo nome da lista
 for name in names:
     print('olá {} tudo bem com você?'.format(name))
