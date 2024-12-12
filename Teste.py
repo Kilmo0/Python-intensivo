@@ -1,15 +1,11 @@
-cripto = []
+convidados = ['Jesus', 'Lucifer', 'leonardo da Vince', 'albert einsten', 'Amanda Janke']
 
-cripto.append('bitcoin')
-cripto.append('ethereum')
-cripto.append('cardano')
+faltou = convidados.pop(1)
 
-cripto.insert(0, "XRP")
 
-nocripto = 'ethereum'
-cripto.remove(nocripto)
+for convidado in convidados:
+    print('olá {} espero que esteja tudo bem com você!\nvenho lhe convidar para um jantar para debater fatos Contamos muito sua presença \ninfelizmente o {}, não irá comparacer\n\nAss: Kauã Lorenzi'.format(convidado.title(), faltou))
 
-for criptos in cripto:
-    print(criptos)
+convidados.insert(1, "Elon Musk")
+print(convidado)
 
-print("{} não é uma criptomoeda".format(nocripto.title()))
