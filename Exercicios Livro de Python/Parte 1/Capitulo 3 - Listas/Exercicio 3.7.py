@@ -43,7 +43,10 @@ fAmanda = convidados.pop(1)
 
 falta = [fisac, fnicolas, fjesus, fleonardo, feinsten, fAmanda]
 
+#para os que não serão mais convidados
 for faltante in falta:
     print('boa tarde {} infelizmente a nova mesa não chagará, então estaremos infelizmente te removendo do evendo, mas não se preocupe \nnós te convidaremos para outro evendo\n\n\n Ass: Kauã Lorenzi'.format(faltante.title()))
-    
-print('boa tarde {}, lembrando que vocês ainda estão convidados para nosso evento'.format(convidado.title()))
+
+#para o que ainda serão convidados
+for convidado in convidados:
+    print('boa tarde {}, lembrando que vocês ainda estão convidados para nosso evento'.format(convidado.title()))
