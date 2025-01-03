@@ -24,5 +24,3 @@ print('boa tarde a todos\nGostaria de anunciar que o {}, {} e {},\n também irã
 for convidado in convidados:
     print('Boa tarde {},\ngostaria de te convidar para um jantar para discutirmos\ninfelizmente o {} não irá comparecer, devido a problemas técnicos\nagradeço a comprenção\n\n\n\tAss: Kauã Lorenzi\n'.format(convidado.title(), faltou))
         
-
-
