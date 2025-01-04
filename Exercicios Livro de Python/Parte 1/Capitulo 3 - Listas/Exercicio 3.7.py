@@ -50,3 +50,7 @@ for faltante in falta:
 #para o que ainda serão convidados
 for convidado in convidados:
     print('boa tarde {}, lembrando que vocês ainda estão convidados para nosso evento'.format(convidado.title()))
+
+#deletando pessoas
+del fAmanda
+del feinsten

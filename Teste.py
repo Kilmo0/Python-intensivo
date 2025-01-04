@@ -1,4 +1,4 @@
-convidados = ['kauã', 'Amanda', 'Claudia', 'ana']
+lista = ['abacaxi', 'manga', 'lixia', 'abacate', 'kiwi']
 
-for convidado in convidados:
-    print('boa tarde {} tudo certo com você?'.format(convidado))
+lista.sort()
+print(lista)
