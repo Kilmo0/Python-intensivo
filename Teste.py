@@ -1,4 +1,5 @@
 lista = ['abacaxi', 'manga', 'lixia', 'abacate', 'kiwi']
 
-lista.sort()
-print(lista)
+lista.sort(reverse=True)
+print(sorted(lista))
+print(len(lista))
