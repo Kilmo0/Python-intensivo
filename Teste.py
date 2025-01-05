@@ -1,5 +1,4 @@
-lista = ['abacaxi', 'manga', 'lixia', 'abacate', 'kiwi']
+frutas = ['abacaxi', 'manga', 'lixia', 'abacate', 'kiwi']
 
-lista.sort(reverse=True)
-print(sorted(lista))
-print(len(lista))
+for fruta in frutas:
+    print(fruta.title())

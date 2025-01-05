@@ -41,3 +41,5 @@ print(sorted(cryptos))
 #colocando em ordem alfabética reversa
 print(sorted(cryptos, reverse=True))
 
+for cripto:
+    print(cripto)
