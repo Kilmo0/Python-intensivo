@@ -15,4 +15,6 @@ for numero in range(1,1000001):
 #contagem
 print(max(numeros))
 print(min(numeros))
+
+#no caso isso faz a soma dos numeros naturais, não do factorial
 print(sum(numeros))
