@@ -1,5 +1,5 @@
-dimenções = (200, 50)
-for dimenção in dimenções:
-    print(dimenção)
 
-dimenções.__len__()
+lista = ['maria', 'jose', 'marcos']
+usuario = 'maria'
+if 'maria' in lista:
+    print('maria está na lista')
