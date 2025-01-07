@@ -11,7 +11,7 @@ os três últimos itens da lista.
 
 #vou pedir desculpas, porém não quero usar numeros para digitar uma lista
 
-doces = ['chocolate', 'brigadeiro', 'bala', 'rosquinhas', 'achocolatado']
+    doces = ['chocolate', 'brigadeiro', 'bala', 'rosquinhas', 'achocolatado']
 
 #exibindo mensagem dos 3 primeiros itens
 print(doces[:3])
