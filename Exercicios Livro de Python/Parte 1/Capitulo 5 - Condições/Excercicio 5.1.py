@@ -40,3 +40,8 @@ Namorada = 'Amanda'
 print('eu acho que minha namorada é a "Amanda"')
 print('Amanda' == Namorada)
 
+amigo_oculto = 'Amanda'
+
+print('I ')
+print('Amanda' == amigo_oculto)
+
