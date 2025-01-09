@@ -1,5 +1,2 @@
-
-lista = ['maria', 'jose', 'marcos']
-usuario = 'maria'
-if 'maria' in lista:
-    print('maria está na lista')
+alien = {'color': 'green', 'points': 5}
+print(alien['color'])
