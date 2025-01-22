@@ -1,13 +1,8 @@
-#sistema de login
+user1 = {
+    'nome': 'Kauã',
+    'Sobrenome': 'Lorenzi',
+    'Idade': '19'
+}
 
-users = ['Amanda', 'Kauã', 'Allan']
-newusers = ['Amanda', 'Brian', 'Ana']
-
-lowusers = (lowusersa.lower() for lowusersa in users)
-newlowusers = (newlowusersa.lower() for newlowusersa in newusers)
-
-for newuser in newlowusers:
-    if not newuser in lowusers:
-        print('Seja bem vindo {}'.format(newuser))
-    else:
-        print('você já está cadastrado {}'.format(newuser))
+for id, valores in user1.items():
+    print(valores)
