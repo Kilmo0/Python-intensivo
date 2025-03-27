@@ -1,9 +1,7 @@
-favlinguagem = {
-    'Kauã': 'java',
-    'Allan': 'php',
-    'Brian': 'Rust',
-    'Brian': 'Rust'
+pizza = {
+        'borda': 'queijo',
+        'ingredientes': ['Cogumelos', 'Queijo Extra']
 }
-print('as linguagens mensionadas foram:')
-for linguagem in set(sorted(favlinguagem.values())):
-    print(linguagem.title())
+
+for sabor in pizza['ingredientes']:
+    print(sabor)
