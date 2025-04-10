@@ -1,15 +1,16 @@
-respostas = {}
+def nomecompleto(nome, sobrenome):
+    nomecompletado = nome + ' ' + sobrenome
+    return nomecompletado
 
+#questionario = True
 
-questionario = True
-
-while questionario:
-    nome = input('qual o seu nome?\n')
-    resposta = input('Qual montanha você gostaria de escalar algum dia?\n')
-    respostas[nome] = resposta
-    repetir = input('você gostaria que outra pessoa respondesse?')
-    if repetir == 'não':
-        questionario = False
-print('-'*5 + 'Resuldado' + '-'*5)
-for nome, resposta in respostas.items():
-    print(respostas)
+while True:
+    print('digite "q", para sair')
+    nome = input('digite seu primeiro nome: ')
+    if nome == 'q':
+        break
+    sobrenome = input('digite seu sobrenome ')
+    if sobrenome == 'q':
+        break
+    asd = nomecompleto(nome, sobrenome)
+    print(asd.title())
