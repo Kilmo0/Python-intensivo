@@ -1,16 +1,14 @@
-def modelos_impressos(modnaoimpresso, modcompleto):
-    while modnaoimpresso:
-        sendofeito = modnaoimpresso.pop()
-        print(f'Imprimindo {sendofeito}')
-        modcompleto.append(sendofeito)
+respostas = {}
 
-def modelos_completos(modeloscompleto):
-    print('\nOs modelos completos foram:')
-    for feito in modeloscompleto:
-        print(feito)
+questionario = True
 
-modeloshaserfeito = ['Marios Bros', 'IphoneCase', 'Capacitor']
-modeloscompletos = []
-
-modelos_impressos(modeloshaserfeito, modeloscompletos)
-modelos_completos(modeloscompletos)
+while questionario:
+    nome = input('por favor digite seu nome')
+    resposta = input('qual montamnha você gostaria de escolar?')
+    respostas[nome] = resposta    
+    repetir = input('você gostaria de que outra pessoa respondesse?')
+    if repetir == 'não':
+        questionario = False
+print('-'*5 + 'Resultado' + '-'*5)
+for nome, resposta in respostas.items():
+    print(respostas)
