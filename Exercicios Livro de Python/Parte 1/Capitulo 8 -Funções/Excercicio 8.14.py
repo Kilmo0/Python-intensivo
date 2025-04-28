@@ -1,27 +1,23 @@
 import time
+from importacoes.Impressora import imprimir_modelos
 
-def imprimir_modelos(listademodelos, modeloscompleto=[]):
-    while listademodelos:
-        print('modelos na memoria:')
-        print('-'*25)
-        for imprimindo in listademodelos:
-            print(imprimindo.title())
-        print('')
-        time.sleep(5)
-        print('-'*5 + 'imprimindo', '-'*5)
-        imprimindomodelo = listademodelos.pop()
-        print(f'imprimindo o modelo: {imprimindomodelo}\n')
-        modeloscompleto.append(imprimindomodelo)
-        time.sleep(5)
-        print('-'*5 + 'Modelos Finalizados' + '-'*5)
-        print(f'modelos finalizado: {modeloscompleto}\n')
-        time.sleep(3)
-        print('-'*20 + '\n'*3)
-        time.sleep(3)
+active = True
+lista = []
 
-lista = ['Arc Warden', 'Invoker', 'Qualquercoisa']
+print('Digite "SAIR" para finalizar')
+print('Digite "DEL" para deletar algum item')
 
-listablabla = imprimir_modelos(lista)
-print(listablabla)
-    
+while active:
+    modelos = input('Digite o que deseja imprimir:\n')
+    if modelos == 'SAIR':
+        active = False
+    elif modelos == "DEL":
+        print('Digite o que queira deletar:')
+        print(lista)
+        modelodeletado = input()
+        lista.remove(modelodeletado)
+    else:
+        lista.append(modelos)
+        print(f'Objetos que serão impressso:\n{lista}')
 
+imprimir = imprimir_modelos(lista)
