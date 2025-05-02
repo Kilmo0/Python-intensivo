@@ -1,11 +1,5 @@
-from collections import OrderedDict
+def saudação(nome):
+    """Cria uma saudação com um nome customizado"""
+    print(f'olá {nome} como você vai?')
 
-favlinguagem = OrderedDict()
-
-favlinguagem['Amanda'] = 'Java'
-favlinguagem['Brian'] = 'Assembly'
-favlinguagem['João'] = 'Python'
-favlinguagem['Rosana'] = 'Php'
-
-for chave, valor in favlinguagem.items():
-    print(chave, valor)
+saudação('Kauã Lorenzi')
