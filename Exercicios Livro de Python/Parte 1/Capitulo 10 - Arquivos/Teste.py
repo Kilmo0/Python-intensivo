@@ -3,5 +3,6 @@ caminho = 'C:/Users/EPIC!-PC/Documents/GitHub/Python-intensivo/Exercicios Livro 
 
 
 with open(caminho) as arquivo:
-    conteudo = arquivo.read()
-    print(conteudo.rstrip())
+    for linha in arquivo:
+        print(linha.rsplit())
+        
