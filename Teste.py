@@ -1,6 +1,12 @@
-def infopet(animal, nome):
-    """chama seu pet pelo nome"""
-    print(f'você tem um {animal}')
-    print(f'o nome dele é {nome}')
+import json
 
-infopet('Passaro', 'Bia')
+filename = 'users.json'
+
+try:
+    with open(filename) as arquivo:
+        user = json.load(arquivo)
+        print(user)
+except FileNotFoundError:
+    user = input('poderia nos dar seu nome?')
+    with open(filename, 'w') as arquivo1:
+        json.dump(user, arquivo1)

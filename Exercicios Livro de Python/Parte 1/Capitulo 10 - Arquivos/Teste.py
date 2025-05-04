@@ -1,6 +1,9 @@
-print('escolha um número para dividir 5')
-num1 = int (input())
-try:
-    print(5 / num1)
-except ZeroDivisionError:
-    print('tu é burro para caralho para dividir algo por 0')
+import json
+
+filename = 'users.json'
+nome = input('qual é seu nome?')
+
+with open(filename, 'w') as arquivo:
+    json.dump(nome, arquivo)
+    print(f'nós lembraremos de você {nome}')
+    
