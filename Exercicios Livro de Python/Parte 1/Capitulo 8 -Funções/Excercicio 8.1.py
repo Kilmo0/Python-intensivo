@@ -1,4 +1,5 @@
-def mensagem():
-    print('o comando def é utilizado para criar funções')
+def mensagem(msg):
+    msg = 'qualquercoisa'
+    return msg
 
-mensagem()
+print(mensagem())

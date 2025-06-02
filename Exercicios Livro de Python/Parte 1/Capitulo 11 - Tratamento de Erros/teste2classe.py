@@ -1,12 +1,11 @@
 import unittest
-from Importações.importest import comprimento as comando
+from Importações.midname import nomedomeio
 
-class nomesdeteste(unittest.TestCase):
-    """Testa o nome"""
+class Testenomedomeio(unittest.TestCase):
+    """testar variavel"""
     
-    def testdenome(self):
-        """Nome Funciona?"""
-        nomeformatado = comando('Kauã', 'Lorenzi')
-        self.assertEqual(nomeformatado, 'olá Kauã Lorenzi como você está?')
+    def teste_nome_meio(self):
+        resultado = nomedomeio('kaua','Lorenzi', 'Mantai')
+        self.assertEqual(resultado, 'kaua Mantai Lorenzi')
 
 unittest.main()
